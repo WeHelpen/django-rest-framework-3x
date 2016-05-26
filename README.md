@@ -4,6 +4,16 @@
 [![coverage-status-image]][codecov]
 [![pypi-version]][pypi]
 
+Why
+---
+I needed to have `django-haystack` integration on a site that used an old
+`django-rest-framework` (2.4.8). Instead of getting into a hell with making
+`drf-haystack` backwards compatible with DRF I cloned the DRF into a `new
+package <https://github.com/barseghyanartur/django-rest-framework-3x>`_ with
+another namespace and it all worked. I'm not really
+maintaining this repository. All bug fixes/pull requests should be submitted to
+`drf-haystack` package.
+
 **Awesome web-browsable Web APIs.**
 
 Full documentation for the project is available at [http://www.django-rest-framework.org][docs].
