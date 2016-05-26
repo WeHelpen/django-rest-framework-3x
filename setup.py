@@ -58,12 +58,12 @@ if sys.argv[-1] == 'publish':
     print("  git push --tags")
     shutil.rmtree('dist')
     shutil.rmtree('build')
-    shutil.rmtree('djangorestframework.egg-info')
+    shutil.rmtree('djangorestframework-3x.egg-info')
     sys.exit()
 
 
 setup(
-    name='djangorestframework',
+    name='djangorestframework-3x',
     version=version,
     url='http://www.django-rest-framework.org',
     license='BSD',
